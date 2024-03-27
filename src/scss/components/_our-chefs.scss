@@ -1,0 +1,85 @@
+.our-chefs {
+  margin-bottom: 100px;
+}
+
+.our-chefs__title {
+  font-family: Tinos;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 105px;
+}
+
+.our-chefs__title_span {
+  color: #D67E34;
+}
+
+/* ///// */
+#swiper-2 {
+  max-width: 1440px;
+  height: 530px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #FF7400;
+  top: var(--swiper-navigation-top-offset, 95%);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 20px);
+}
+
+/* ///// */
+
+.our-chefs__img_4 {
+  width: 348px;
+  height: 462px;
+}
+
+@media (max-width: 960px) {
+  .our-chefs__title {
+    font-size: 38px;
+    /* padding-top: 65px; */
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 775px) {
+
+  .swiper-button-next-2,
+  .swiper-button-prev-2 {
+    top: var(--swiper-navigation-top-offset, 50%);
+  }
+}
+
+@media (max-width: 545px) {
+  .our-chefs {
+    margin-bottom: 20px;
+  }
+
+  .our-chefs__title {
+    font-size: 40px;
+    padding-top: 0;
+    margin-bottom: 80px;
+  }
+
+  .swiper-button-next-2,
+  .swiper-button-prev-2 {
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+}
+
+@media (max-width: 390px) {
+  #swiper-2 {
+    height: 430px;
+  }
+
+  .our-chefs__img {
+    width: 288px;
+    height: 380px;
+  }
+}

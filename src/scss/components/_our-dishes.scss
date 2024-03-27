@@ -1,0 +1,114 @@
+.our-dishes {
+  margin-bottom: 152px;
+}
+
+.our-dishes__container {
+  text-align: center;
+}
+
+.our-dishes__title {
+  font-family: Tinos;
+  font-size: 54px;
+  margin-bottom: 140px;
+}
+
+.our-dishes__title_span {
+  color: #D67E34;
+}
+
+.our-dishes__flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.our-dishes__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.our-dishes__item {
+  display: flex;
+  gap: 30px;
+}
+
+.our-dishes__item__text {
+  font-family: Tinos;
+  font-size: 26px;
+  padding-top: 40px;
+}
+
+@media (max-width: 1225px) {
+  .our-dishes__flex {
+    gap: 20px;
+  }
+
+  .our-dishes__item {
+    gap: 15px;
+  }
+
+  .our-dishes__item__text {
+    font-size: 20px;
+  }
+
+  .our-dishes__item__text__span {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .our-dishes {
+    margin-bottom: 80px;
+  }
+
+  .our-dishes__title {
+    font-size: 38px;
+    margin-bottom: 90px;
+  }
+
+  .our-dishes__item {
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 545px) {
+  .our-dishes {
+    margin-bottom: 128px;
+  }
+
+  .our-dishes__title {
+    max-width: 200px;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 68px;
+  }
+
+  .our-dishes__flex {
+    gap: 50px;
+  }
+
+  .our-dishes__img1 {
+    width: 100%;
+  }
+
+  .our-dishes__list {
+    gap: 87px;
+  }
+
+  .our-dishes__item {
+    max-height: 113px;
+    gap: 8px;
+    margin: 0;
+  }
+
+  .our-dishes__item__text {
+    font-size: 22px;
+    padding-top: 26px;
+  }
+
+  .our-dishes__item__text__price {
+    font-size: 26px;
+  }
+}
